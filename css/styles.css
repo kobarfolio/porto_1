@@ -119,21 +119,14 @@ img {
 
 
 
-.nav-btns {
+.nav {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
-.nav-btns .change-theme {
-  font-size: 1.25rem;
-  color: var(--title-color);
-  margin-right: var(--mb-1);
-  cursor: pointer;
-}
 
-.nav-btns .change-theme:hover {
-  color: var(--first-color);
-}
+
+
 
 /* REUSABLE CSS CLASSES */
 .section {
